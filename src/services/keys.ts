@@ -15,3 +15,5 @@ export const itemsKey = (itemId: string) => `ìtems#${itemId}`
 export const itemsByViewsKey = () => 'items:views'
 export const itemsByEndingAtKey = () => 'items:endingAt'
 export const itemsViewsKey = (itemId: string) => `items:views#${itemId}`
+export const bidHistoryKey = (itemId: string) => `history#${itemId}`
+
